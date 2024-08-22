@@ -6,7 +6,6 @@ import Container from "react-bootstrap/Container";
 import { Link } from "react-router-dom";
 
 import {
-  AiFillStar,
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
@@ -37,7 +36,7 @@ function NavBar() {
     >
       <Container>
         <Navbar.Brand href="/" className="d-flex">
-        <h1 style={{ color: '#b562d6', fontSize: '40px', fontWeight: 'bold' }}>]-IitI-[</h1>
+        <h1 style={{ color: '#b562d6', fontSize: '40px', fontWeight: 'bold' }}>[-]ith</h1>
 
         </Navbar.Brand>
         <Navbar.Toggle
