@@ -56,7 +56,7 @@ function Projects() {
               isBlog={false}
               title="Smart PDF reader"
               description="Built a PDF reader with text summarization, text-to-speech, and QA using Hugging Face models. Created anintuitive interface with Gradio for seamless document interaction"
-              ghLink="https://github.com/HitheshPoojary187/Pet-Adoption-Management"
+              ghLink="https://github.com/HitheshPoojary187/PdfS"
               
             />
           </Col>
