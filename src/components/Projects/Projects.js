@@ -8,6 +8,11 @@ import stock from "../../Assets/Projects/stocks.jpg";
 import pet_squad from "../../Assets/Projects/pet_squad.jpg";
 import iphone from "../../Assets/Projects/iphone.jpg";
 import tulucentre from "../../Assets/Projects/tulucentre.jpg";
+import jap from "../../Assets/Projects/jap.jpg";
+import ticket from "../../Assets/Projects/ticket.jpg";
+import pdf from "../../Assets/Projects/smartpdf.jpg";
+import qr from "../../Assets/Projects/qr.jpg";
+
 
 function Projects() {
   return (
@@ -21,6 +26,41 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={jap}
+              isBlog={false}
+              title="JapLingua - Japanese learning App"
+              description="Built a Japanese learning platform with Kana flashcards, multilingual translation (Japanese/English/Romaji),pronunciation support, etiquette chatbot, and Kanji OCR with API-based meanings. The platform is actively usedby college students to learn Japanese in an interactive way."
+              ghLink="https://github.com/HitheshPoojary187/JapLinguaV01"
+              demoLink="https://japlinguav01.onrender.com/"
+              
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={ticket}
+              isBlog={false}
+              title="Smart AI-Powered Ticketing System"
+              description="Developed a smart AI-powered ticketing system enabling users to submit support tickets, automaticallyprocessed to improve efficiency. Integrated an AI agent to read, categorize, and generate responses, minimizingmanual work. Implemented user authentication and a responsive frontend for seamless interaction. Tech Stacks: React, Inngest, Gemini AI, JWT Authentication, Express JS, MongoDB"
+           
+              
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={pdf}
+              isBlog={false}
+              title="Smart PDF reader"
+              description="Built a PDF reader with text summarization, text-to-speech, and QA using Hugging Face models. Created anintuitive interface with Gradio for seamless document interaction"
+              ghLink="https://github.com/HitheshPoojary187/Pet-Adoption-Management"
+              
+            />
+          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={pet_squad}
@@ -78,12 +118,22 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={qr}
+              isBlog={false}
+              title="QR code Extractor"
+              description="This project uses Python and OpenCV to capture live video, detect QR codes in real time, draw a bounding box around them, and display the decoded URL or text above the box for instant access."
+              ghLink=""
+              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={facemask}
               isBlog={false}
               title="Face Mask Detection"
               description="This project is a computer vision application developed in Python to detect whether a person is wearing a face mask. Using machine learning models and image processing techniques, the system can accurately classify people as either wearing or not wearing a mask. The project can be integrated into surveillance systems or standalone applications for public safety, ensuring compliance with mask-wearing protocols."
               
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
             />
           </Col>
         </Row>

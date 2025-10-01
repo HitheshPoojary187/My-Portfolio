@@ -21,7 +21,28 @@ function AboutCard() {
                I am passionate about applying AI concepts to solve real-world problems, and
                 I aim to specialize in areas like <span className="purple">Natural Language Processing, Web Dev, Computer Vision</span>, or AI-driven automation in the future.
             </p>
+            <p style={{ color: "rgb(155 126 172)" }}>
+            " I’m training myself alongside the models I build. learning never stops!😁."
+          </p>
             <br />
+             Languages I can speak:
+            <ul>
+            <li className="about-activity">
+              <ImPointRight /> English
+            </li>
+            <li className="about-activity">
+              <ImPointRight /> Hindi
+            </li>
+            <li className="about-activity">
+              <ImPointRight /> Kannada
+            </li>
+            <li className="about-activity">
+              <ImPointRight /> Japanese (Basic)
+            </li>
+            <li className="about-activity">
+              <ImPointRight /> Tulu
+            </li>
+          </ul>
             <br />
             Apart from coding, some other activities that I love to do!
           </p>
@@ -44,9 +65,8 @@ function AboutCard() {
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "People say nothing is impossible,but I do nothing every day😁."
+            " I’m training myself alongside the models I build. learning never stops!😁."
           </p>
-          <footer className="blockquote-footer">Hithesh </footer>
         </blockquote>
       </Card.Body>
     </Card>

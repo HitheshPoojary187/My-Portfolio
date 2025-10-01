@@ -8,7 +8,7 @@ function Type() {
         strings: [
           "React Developer",
           "Python Developer",
-          "Machine Learner",
+          "Machine Learning Enthusiast",
         ],
         autoStart: true,
         loop: true,
